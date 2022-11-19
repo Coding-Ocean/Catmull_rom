@@ -12,6 +12,6 @@ public:
 		points.emplace_back(x, y, z);
 	}
 	size_t numPoints()const {
-		return points.size(); 
+		return points.size();
 	}
 };
