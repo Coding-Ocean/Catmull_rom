@@ -66,6 +66,7 @@ void text(const char* str, float x, float y);
 void text(double n, float x, float y);
 void text(int n, float x, float y);
 void text(let n, float x, float y);
+void text(let l, const VECTOR& p, TEXT_MODE mode, const COLOR& c, float size);
 void printStart();
 void printSize(float size);
 void printPosX(float x);
